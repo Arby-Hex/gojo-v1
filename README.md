@@ -17,7 +17,7 @@ git clone https://github.com/Arby-Hex/gojo-v1
 cd gojo-v1
 ```
 ```
-node gojo-v1.js
+node gojov1.js
 ```
 # Note
 > Gunakan Tools Ini Dengan Bijak. Saya Tidak
