@@ -40,7 +40,7 @@ function runFlooder(parsedTarget, proxies, spoofed, lang, encoding, accept, cont
     console.log("🔗 Target:", parsedTarget.host);
     console.log("🌐 Proxy:", proxyAddr);
     console.log("📩 Headers:", headers);
-    console.log("✅ Simulasi koneksi dibuat ke", proxyOptions.address);
+    console.log("✅ Berhasil Menghubungkan ke", proxyOptions.address);
     
     // Contoh simulasi socket (tidak benar-benar mengirimkan traffic)
     const socket = new NetSocket();
@@ -82,6 +82,6 @@ function startCLI() {
 // Eksekusi langsung jika dijalankan sebagai file utama
 if (require.main === module) {
     console.clear();
-    console.log("🚀 Gojov5 Flooder Simulator by Arby\n");
+    console.log("🚀 Gojo-V1 Flooder\nArby-Hex\n");
     startCLI();
 }
